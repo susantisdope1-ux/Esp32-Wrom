@@ -38,26 +38,25 @@ The development board uses **ESP32-WROOM-32E** as its microcontroller and featur
 
 ## PCB
 
-```
+
 <img width="992" height="506" alt="image" src="https://github.com/user-attachments/assets/824404cc-78b0-4d64-9002-3ea80c5a7dad" />
 
-```
+
 
 ## 3D View
 
-```
+
 <img width="1127" height="637" alt="image" src="https://github.com/user-attachments/assets/1fe2e5c4-d23e-47ef-8fd1-eac198ab2a3d" />
 
-```
+
 
 ## Schematic
 
-```
 <img width="1037" height="717" alt="Screenshot 2026-10-07 121150" src="https://github.com/user-attachments/assets/3306316d-d3cb-47c6-a636-a7cda9197b58" />
 
-```
 
----
+
+
 
 # GPIO
 
