@@ -1,23 +1,22 @@
 # ESP32 Development Board
 
-A custom **ESP32 development board** designed in **EasyEDA** for learning PCB design and embedded systems.
+Design of a custom **ESP32 Development Board** using **EasyEDA** for studying PCB design and embedded systems concepts.
 
-The board is based on the **ESP32-WROOM-32E** module and includes USB programming, voltage regulation, automatic boot/reset circuit, ESD protection, status LEDs, and GPIO headers for easy prototyping.
-
+The development board uses **ESP32-WROOM-32E** as its microcontroller and features USB interface for programming, voltage regulation, auto boot/reset circuit, ESD protection, status LEDs, and GPIO headers.
 ---
 
-## Features
+## Characteristics
 
 - ESP32-WROOM-32E (4MB Flash)
 - CP2102N USB-to-UART
-- AMS1117-3.3V regulator
-- USB Micro connector
-- BOOT & RESET buttons
-- Power and User LEDs
-- ESD protection
+- AMS1117-3.3V voltage regulator
+- USB Micro interface
+- BOOT and RESET switches
+- LED indicators for power and user actions
+- Electrostatic Discharge protection
 - Decoupling capacitors
-- GPIO headers
-- Designed in EasyEDA
+- GPIO header
+- Designed using EasyEDA
 
 ---
 
@@ -40,19 +39,22 @@ The board is based on the **ESP32-WROOM-32E** module and includes USB programmin
 ## PCB
 
 ```
-images/pcb.png
+<img width="992" height="506" alt="image" src="https://github.com/user-attachments/assets/824404cc-78b0-4d64-9002-3ea80c5a7dad" />
+
 ```
 
 ## 3D View
 
 ```
-images/3d.png
+<img width="1127" height="637" alt="image" src="https://github.com/user-attachments/assets/1fe2e5c4-d23e-47ef-8fd1-eac198ab2a3d" />
+
 ```
 
 ## Schematic
 
 ```
-images/schematic.png
+<img width="1037" height="717" alt="Screenshot 2026-10-07 121150" src="https://github.com/user-attachments/assets/3306316d-d3cb-47c6-a636-a7cda9197b58" />
+
 ```
 
 ---
@@ -160,18 +162,11 @@ void loop() {
 - Decoupling capacitor placement
 - ESD protection
 - PCB antenna keep-out
-- PCB manufacturing workflow
+- PCB manufacturing
 
----
 
-# License
+# Credit
 
-MIT License
+Designed and developed by **Sumit** For hack club
 
----
 
-# Credits
-
-Designed and developed by **Sugam Pathak**
-
-Created as a learning project using **EasyEDA**.
